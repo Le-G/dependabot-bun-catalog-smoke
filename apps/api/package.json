@@ -1,0 +1,17 @@
+{
+  "name": "@smoke/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@smoke/shared": "workspace:*",
+    "lodash": "catalog:",
+    "ms": "catalog:",
+    "zod": "catalog:",
+    "uuid": "catalog:"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "test": "bun test"
+  }
+}
