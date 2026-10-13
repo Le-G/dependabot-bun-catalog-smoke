@@ -20,7 +20,7 @@
     "test": "bunx nx run-many -t test"
   },
   "devDependencies": {
-    "nx": "20.0.0",
+    "nx": "23.3.0",
     "typescript": "5.4.2"
   }
 }
